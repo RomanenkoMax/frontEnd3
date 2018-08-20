@@ -1,0 +1,89 @@
+.container {
+    background: url('../img/background.jpg') no-repeat center center;
+    width: 1366px;
+    height: 768px;
+}
+.context {
+    margin: 0;
+    padding: 30px 150px 50px 150px;
+}
+.picture-place {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-content: space-between;
+    max-width: 100vw;
+    clear: both;
+    margin-top: 50px;
+    padding: 0;
+}
+.logoName {
+    float: left;
+}
+.name a{
+    display: inline-block;
+    text-decoration: none;
+}
+.logop {
+    background: url("../img/css_sprites.png") -10px -10px;
+    display: inline-block;
+    width: 46px;
+    height: 44px;
+}
+.name {
+    display: inline-block;
+}
+
+.milan {
+    color: #FFFFFF;
+    font-family: Verdana, sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.holidays {
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.header:hover .logop {
+    background: url("../img/css_sprites.png") -10px -74px;
+    width: 46px;
+    height: 44px;
+}
+.header:hover .milan {
+    color: #f26522;
+}
+.header:hover .holidays {
+    color: #f26522;
+}
+.mymail {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: right;
+    width: 300px;
+    float: right;
+}
+.footer p {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    color:  #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110px;
+}

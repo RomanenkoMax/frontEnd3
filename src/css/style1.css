@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.picture {
+    display: inline-block;
+    /*border: 2px solid gray;*/
+    font-family: Verdana, sans-serif;
+    padding-top: 38px;
+
+}
+.cont {
+    position: relative;
+    overflow: hidden;
+}
+.hide {
+    width: 307px;
+    height: 70px;
+    background-color: #f26522;;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -70px;
+    transition: margin 0.5s linear;
+
+}
+.picture:hover .hide {
+    margin-bottom: 0;
+}
+.picture:hover .text {
+    color: #f26522;
+}
+.picture a {
+    text-decoration: none;
+    display: block;
+}
+span.text {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    display: block;
+    color:  #ffffff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+.hide span {
+    display: inline-block;
+    width: 43%;
+    margin: 0;
+    padding: 0;
+    line-height: 21px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.hide span:nth-of-type(1) {
+    font-size: 10px;
+    padding-top: 16px;
+    padding-left: 21px;
+}
+.hide span:nth-of-type(2) {
+    font-size: 20px;
+    padding-bottom: 16px;
+    padding-left: 21px;
+}
+.hide span:nth-of-type(3) {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 16px;
+}
